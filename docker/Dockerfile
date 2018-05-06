@@ -6,4 +6,5 @@ RUN conda install --quiet --yes \
     conda clean -tipsy && \
     fix-permissions $CONDA_DIR && \
     fix-permissions /home/$NB_USER && \
-    pip install graphviz
+    pip install graphviz && \
+    pip install imageio

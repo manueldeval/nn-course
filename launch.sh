@@ -9,7 +9,7 @@ if [ ! -d "$WORK_VOLUME" ]; then
 	mkdir $WORK_VOLUME
 fi
 
-docker build -t customjupyter .
+docker build -t customjupyter ./docker/
 
 
 
